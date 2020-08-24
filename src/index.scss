@@ -15,7 +15,12 @@ ul {
   list-style-type: none;
 }
 
+:root {
+  height: 100%;
+}
+
 body {
+  height: inherit;
   font-family: -apple-system, 'Exo 2', BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
