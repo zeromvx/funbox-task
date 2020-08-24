@@ -1,15 +1,15 @@
 #root {
-  height: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100%;
 }
 
 .app {
   position: relative;
   padding: 1rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  min-height: 100%;
+
+
 
   .title {
     z-index: 10;
