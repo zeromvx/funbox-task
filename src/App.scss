@@ -13,8 +13,11 @@
   background: url("/images/Pattern.png");
   color: #fff;
 
-  h1 {
+  .title {
     z-index: 10;
+    font-size: 2.25rem;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 500;
   }
 
   &::before {

@@ -32,7 +32,7 @@ const PRODUCTS = [
 function App() {
   return (
     <div className="app">
-      <h1>Ты сегодня покормил кота?</h1>
+      <h1 className="title">Ты сегодня покормил кота?</h1>
       <ul className="products">
         {
           PRODUCTS.map(({ type, portionsCount, giftCount, weight, inStock, activeDescr }) => (
