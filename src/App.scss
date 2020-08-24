@@ -10,8 +10,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: url("/images/Pattern.png") ;
-  //
+  background: url("/images/Pattern.png");
   color: #fff;
 
   h1 {
@@ -26,7 +25,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 5e-05) 49.88%, rgba(0, 0, 0, 0.5) 100%);
+    background: url("/images/shadow.png");
   }
 }
 
