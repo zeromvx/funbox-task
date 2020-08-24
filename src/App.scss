@@ -1,14 +1,15 @@
-#root {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100%;
+#root,
+.app {
+  height: inherit;
 }
 
 .app {
   position: relative;
   padding: 1rem;
-
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
 
   .title {
@@ -16,6 +17,10 @@
     font-size: 2.25rem;
     font-family: 'Exo 2', sans-serif;
     font-weight: 500;
+  }
+
+  @media screen and (max-width: 1231px) {
+    justify-content: flex-start;
   }
 }
 
