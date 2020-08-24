@@ -22,6 +22,19 @@ body {
   font-family: Trebuchet MS, Lucida Grande, Lucida Sans, Tahoma,sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: url("/images/Pattern.png");
+  color: #fff;
+
+  &::before {
+    z-index: 0;
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url("/images/shadow.png") 0 0/100% 100% no-repeat;
+  }
 }
 
 code {
